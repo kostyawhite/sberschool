@@ -2,6 +2,7 @@
 Repository for sberbank school exercises
 
 # Домашнее задание #1
+https://github.com/kostyawhite/sberschool/tree/master/src/ru/sber/e1
 1. Создать репозиторий (на любом сервисе: git,bitbucket)
 2. Сделать Initial Commit
 3. Создать maven проект
@@ -11,7 +12,7 @@ Repository for sberbank school exercises
 7. Перед завершением программы вывести на экран длительность работы программы в лог уровня INFO
 
 # Домашнее задание #2
-
+https://github.com/kostyawhite/sberschool/tree/master/src/ru/sber/e2
 Имеется набор устройств Device. Каждый device имеет id (Integer), name (String), 
 набор компонентов Component и status (для статуса устройства предусмотрено три значения: normal, warning, error).
 
