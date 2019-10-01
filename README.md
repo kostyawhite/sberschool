@@ -13,6 +13,7 @@ https://github.com/kostyawhite/sberschool/tree/master/src/ru/sber/e1
 
 # Домашнее задание #2
 https://github.com/kostyawhite/sberschool/tree/master/src/ru/sber/e2
+
 Имеется набор устройств Device. Каждый device имеет id (Integer), name (String), 
 набор компонентов Component и status (для статуса устройства предусмотрено три значения: normal, warning, error).
 
