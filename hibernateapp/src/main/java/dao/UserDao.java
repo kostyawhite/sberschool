@@ -1,15 +1,18 @@
-package ru.sber.e4.dao;
-
-import ru.sber.e4.HibernateSessionFactoryUtil;
-import ru.sber.e4.models.User;
+package dao;
 
 import org.hibernate.Session;
 import org.hibernate.Transaction;
 
+import models.User;
+import utils.HibernateSessionFactoryUtil;
+
 public class UserDao {
+
+//    private Session session = utils.HibernateSessionFactoryUtil.getSessionFactory().openSession();
 
     public User findById(int id) {
         return HibernateSessionFactoryUtil.getSessionFactory().openSession().get(User.class, id);
+//        return session.get(models.User.class, id);
     }
 
     public void save(User user) {

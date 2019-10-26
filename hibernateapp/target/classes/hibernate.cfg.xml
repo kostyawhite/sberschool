@@ -28,7 +28,7 @@
         <property name="hbm2ddl.auto">update</property>
 
         <!-- Mappings -->
-        <mapping class="ru.sber.e4.models.User"/>
-        <mapping class="ru.sber.e4.models.Vehicle"/>
+        <mapping class="models.User"/>
+        <mapping class="models.Vehicle"/>
     </session-factory>
 </hibernate-configuration>

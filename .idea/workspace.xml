@@ -2,11 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42be89f3-fb60-4111-9670-5f695a3c8258" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernateappold/src/main/java/HibernateApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/hibernateappold/src/main/java/HibernateSessionFactoryUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/META-INF/persistence.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/hibernate.cfg.xml" beforeDir="false" afterPath="$PROJECT_DIR$/hibernateapp/src/main/resources/hibernate.cfg.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sberschool.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sberschool.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sber/e4/HibernateApp.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sber/e4/HibernateSessionFactoryUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sber/e4/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernateappold/src/main/java/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sber/e4/models/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernateappold/src/main/java/models/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sber/e4/models/Vehicle.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernateappold/src/main/java/models/Vehicle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ru/sber/e4/services/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/hibernateappold/src/main/java/services/UserService.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -120,7 +130,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -129,11 +139,15 @@
     <key name="CreateClassDialog.RecentsKey">
       <recent name="ru.sber.e2" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/hibernateapp/src/main/resources" />
+      <recent name="$PROJECT_DIR$/hibernateapp/src/main/java" />
+      <recent name="$PROJECT_DIR$/hibernateapp" />
       <recent name="$PROJECT_DIR$/resources" />
       <recent name="$PROJECT_DIR$/resources/META-INF" />
-      <recent name="$PROJECT_DIR$/src" />
-      <recent name="$PROJECT_DIR$/src/ru/sber/e4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -148,7 +162,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.HibernateApp">
+  <component name="RunManager" selected="Application.HibernateApp (1)">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -210,6 +224,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HibernateApp (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="HibernateApp" />
+      <module name="hibernateapp" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="HibernateApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ru.sber.e4.HibernateApp" />
       <module name="sberschool" />
@@ -260,9 +282,11 @@
       <item itemvalue="Application.Fibonacci" />
       <item itemvalue="Application.Exercise" />
       <item itemvalue="Application.HibernateApp" />
+      <item itemvalue="Application.HibernateApp (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HibernateApp (1)" />
         <item itemvalue="Application.HibernateApp" />
         <item itemvalue="Application.Exercise" />
         <item itemvalue="Application.Fibonacci" />
@@ -302,7 +326,7 @@
       <workItem from="1570560607418" duration="853000" />
       <workItem from="1571304897340" duration="11323000" />
       <workItem from="1571647618080" duration="836000" />
-      <workItem from="1572084576780" duration="1507000" />
+      <workItem from="1572084576780" duration="5515000" />
     </task>
     <servers />
   </component>

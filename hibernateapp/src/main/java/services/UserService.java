@@ -1,10 +1,7 @@
-package ru.sber.e4.services;
+package services;
 
-import ru.sber.e4.dao.UserDao;
-import ru.sber.e4.models.User;
-import ru.sber.e4.models.Vehicle;
-
-import java.util.List;
+import dao.UserDao;
+import models.User;
 
 public class UserService {
 
